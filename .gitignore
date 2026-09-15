@@ -1,0 +1,15 @@
+# Datos propietarios (Sensara) — no distribuir
+data/*.parquet
+data/*.csv
+# Pesos de modelos y cachés
+models/
+.cache/
+~/.cache/huggingface/
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+# Sistema
+.DS_Store
+Thumbs.db

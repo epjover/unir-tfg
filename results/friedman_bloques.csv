@@ -1,0 +1,5 @@
+H,n_ventanas,chi2,p_valor,ranking_medio
+6,188,28.29,3e-05,xgb_E1 < ttm_zs_U < c2_zs_U_C512 < c2_zs_F_C256 < xgb_E3 < ttm_ft5_F
+12,188,31.96,1e-05,c2_zs_F_C256 < ttm_zs_U < xgb_E1 < c2_zs_U_C512 < xgb_E3 < ttm_ft5_F
+24,188,33.29,0.0,ttm_zs_U < c2_zs_F_C256 < xgb_E1 < c2_zs_U_C512 < xgb_E3 < ttm_ft5_F
+48,188,41.56,0.0,ttm_zs_U < c2_zs_F_C256 < xgb_E1 < c2_zs_U_C512 < xgb_E3 < ttm_ft5_F

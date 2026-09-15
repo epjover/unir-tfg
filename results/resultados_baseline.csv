@@ -1,0 +1,13 @@
+modelo,escenario,H,MAE,RMSE,MAPE,R2,t_inferencia_s,contexto,covariables,hp
+xgboost,E1_univariante,6,3.4284159558916847,4.457718124338983,16.980581279191615,0.35491387870685587,0.007095163167428432,48,ninguna (48 lags),"{'learning_rate': 0.05, 'max_depth': 4, 'n_estimators': 300}"
+xgboost,E1_univariante,12,3.7301645427279997,4.9524996103807055,17.863267323072023,0.35834459936477703,0.007095163167428432,48,ninguna (48 lags),"{'learning_rate': 0.05, 'max_depth': 4, 'n_estimators': 300}"
+xgboost,E1_univariante,24,3.9209507222528805,5.054068717795769,18.15510458125609,0.24552126938199237,0.007095163167428432,48,ninguna (48 lags),"{'learning_rate': 0.05, 'max_depth': 4, 'n_estimators': 300}"
+xgboost,E1_univariante,48,4.388399758206473,5.487212504873175,20.33370980949665,0.14757712393953903,0.007095163167428432,48,ninguna (48 lags),"{'learning_rate': 0.05, 'max_depth': 4, 'n_estimators': 300}"
+xgboost,E2_meteo_naive,6,3.55366296548692,4.563618361583204,17.86966830586067,0.3238996984404243,0.007450275414157659,48,meteo futura por persistencia,"{'learning_rate': 0.05, 'max_depth': 4, 'n_estimators': 300}"
+xgboost,E2_meteo_naive,12,3.7767153036152874,5.018239688789227,18.37482310714922,0.34119671553467534,0.007450275414157659,48,meteo futura por persistencia,"{'learning_rate': 0.05, 'max_depth': 4, 'n_estimators': 300}"
+xgboost,E2_meteo_naive,24,3.863869358477769,5.003808343804286,18.21840879148986,0.2604525395910936,0.007450275414157659,48,meteo futura por persistencia,"{'learning_rate': 0.05, 'max_depth': 4, 'n_estimators': 300}"
+xgboost,E2_meteo_naive,48,4.31161473872485,5.432131684848191,20.339394748925198,0.16460452988018615,0.007450275414157659,48,meteo futura por persistencia,"{'learning_rate': 0.05, 'max_depth': 4, 'n_estimators': 300}"
+xgboost,E3_meteo_real,6,3.491271573273593,4.509652988776078,17.55383503399413,0.33979510252994927,0.00823571152674655,48,meteo futura real (oráculo),"{'learning_rate': 0.05, 'max_depth': 4, 'n_estimators': 300}"
+xgboost,E3_meteo_real,12,3.7604061539967857,4.9858700083001555,18.264314077624363,0.3496684007795251,0.00823571152674655,48,meteo futura real (oráculo),"{'learning_rate': 0.05, 'max_depth': 4, 'n_estimators': 300}"
+xgboost,E3_meteo_real,24,3.927437678001545,5.020797872647786,18.376530627994946,0.25542201387998387,0.00823571152674655,48,meteo futura real (oráculo),"{'learning_rate': 0.05, 'max_depth': 4, 'n_estimators': 300}"
+xgboost,E3_meteo_real,48,4.372207479653535,5.439793217359356,20.455806400250815,0.1622463679186532,0.00823571152674655,48,meteo futura real (oráculo),"{'learning_rate': 0.05, 'max_depth': 4, 'n_estimators': 300}"

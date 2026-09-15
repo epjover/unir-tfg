@@ -1,0 +1,7 @@
+A,B,nominal,H,IS_A,IS_B,DM_stat,p_valor
+c2_F_C1024(nativa),xgb_E3(nativa),80,48,18.591,19.613,-0.854,0.3987
+c2_F_C1024(nativa),xgb_E1(nativa),80,48,18.591,19.457,-0.759,0.4528
+c2_F_C1024(nativa),c2_F_C1024(conformal),80,48,18.591,18.403,0.411,0.6839
+c2_ens_ctx_F(nativa),c2_F_C1024(nativa),80,48,18.197,18.591,-0.951,0.3483
+c2_F_C1024(nativa),ttm_ft5_F(conformal),80,48,18.591,19.737,-1.099,0.2794
+xgb_E3(nativa),xgb_E3(conformal),80,48,19.613,18.876,0.792,0.4336
